@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 5.x'
 gem 'jbuilder', '~> 2.0'
 gem 'haml-rails'
 gem 'erb2haml'
+gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'pry-rails'

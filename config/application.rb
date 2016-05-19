@@ -19,5 +19,6 @@ module Smovie
     end
 
     config.i18n.default_locale = :ja
+    config.autoload_paths += Dir["#{config.root}/app/validators"]
   end
 end
